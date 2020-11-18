@@ -1,0 +1,81 @@
+.container{
+    padding:2em;
+}
+form{
+    padding-left: 7em;
+}
+.info{
+    padding:1em;
+}
+iframe{
+    width:520px;
+}
+.title{
+    text-align: center;
+    width: 100%;
+    padding-bottom:1em;
+    color:#017eff;
+}
+h2{
+    font-weight: 900 !important;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+}
+span{
+    color:#017eff;
+}
+label, .text{
+    color:#043363;
+}
+.info-text, .info-text-1, .info-text-2{
+    color:#ff9700;
+}
+.info-text-1{
+    margin-bottom:-1.5em;
+}
+.info-text-2{
+    margin-bottom:-0.4em;
+}
+.form-control{
+    border:1px solid #017eff;
+}
+.custom-control{
+    margin-bottom:1em;
+}
+.btn-submit{
+    color:white;
+    font-weight:900;
+    background:#ff9700;
+    width:10em;
+    padding:0.5em;
+    border-radius:0.5em;
+    &:hover{
+        background:#f5d700;
+        margin-top:0.5em;
+    }
+
+}
+.custom-control-input:checked~.custom-control-label::before{
+    color: #fff;
+    border-color: #ff9700;
+    background-color: #ff9700;
+}
+.btn{
+    text-align:center;
+    width: 100%;
+}
+@media only screen and (max-width: 1024px) {
+    iframe{
+        width:300px;
+    }
+}
+@media only screen and (max-width: 812px) {
+    form{
+        padding-left: 1em;
+    }
+}
+@media only screen and (max-width: 320px) {
+    iframe{
+        width:200px;
+    }
+}
